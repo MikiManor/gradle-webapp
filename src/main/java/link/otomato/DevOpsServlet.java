@@ -14,6 +14,6 @@ public class DevOpsServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		resp.getOutputStream().write("Welcome to Devops".getBytes());
+		resp.getOutputStream().write("Welcome to Devops...From Miki Manor".getBytes());
 	}
 }
